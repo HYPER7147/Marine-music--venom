@@ -18,17 +18,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "28178139"))
+API_ID = int(getenv("API_ID", ""))
 
-API_HASH = getenv("API_HASH", "85172511f45230b7f8bb304f5ed8e6d8")
+API_HASH = getenv("API_HASH", ""))
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6122249154:AAFoAWAj-GznsJM5ieyVlHhvGcH-6jNGrrI")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Lucky:Lucky@atlascluster.f7lck9c.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", "5")
@@ -69,7 +69,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001963452122"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002447854774"))
 
 # Fill in seconds if assistant is muted in voice chat assistant will leave  voice chat after the MUTE_WARNING_TIME
 
@@ -78,7 +78,7 @@ MUTE_WARNING_TIME = int(getenv("MUTE_WARNING_TIME", 100))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5247304559").split())
+    map(int, getenv("OWNER_ID", "7748891643").split())
 )  # Input type must be interger
 
 
@@ -112,11 +112,11 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/LuckyXUpdate"
-)  # Example:- https://t.me/TheTeamVivek
+    "SUPPORT_CHANNEL", "https://t.me/SEAZONE_UPDATE_BOT"
+)  # Example:- https://t.me/Feeling_smiley
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/LuckyXMusic"
-)  # Example:- https://t.me/TheTeamVk
+    "SUPPORT_GROUP", "https://t.me/Friendship_Club_Group"
+)  # Example:- https://t.me/Feeling_smiley
 
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -140,7 +140,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/The_LuckyX")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/Feeling_smiley")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -214,17 +214,17 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg",
+    "https://graph.org/file/f14be0aaf2036cfc39d05-2829789d989338cd0b.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://graph.org/file/844eb8a40a543493441f7-71bd7821d84e8f97d7.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/f4edfbd83ec3150284aae.jpg",
+    "https://graph.org/file/98f32df1198706e1e9a88-eb179f8d07e6f4a47a.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -234,7 +234,7 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg",
+    "https://graph.org/file/f14be0aaf2036cfc39d05-2829789d989338cd0b.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
